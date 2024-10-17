@@ -30,7 +30,7 @@ plot(y, dbinom(y, 43, 0.32), type="h", col="red") #tener y respuestas postivas e
 # P(X=17); Z -> Binom(44, 0.32)
 dbinom(17, 44, 0.32)
 y <- 0:44
-plot(y, dbinom(y, 44, 0.32), type="h", col="red")
+plot(y, dbinom(y, 44, 0.32), type="h", col="red")   
 
 #dbinom() = función de massa de probablidad
 #pbinom() = función de distribución
@@ -51,4 +51,4 @@ plot(y, pbinom(y, 24,0.68, type="h", col="red"))
 
 #d) 
 #E(X) = n*p
-#
+# v
